@@ -16,14 +16,29 @@
 
 header{
     background-color: black;
-    height: 140px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1{
-    font-family: var(--fonte-passion);
     color: white;
-    text-align: center;
-    height: 140px;
-    margin-bottom: 10px;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p{
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 
 }
