@@ -23,22 +23,156 @@ header{
 
 header > h1{
     color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-family: var(--fonte-passion);
+    font-size: 4em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-variant: small-caps;
 }
 
 header > p{
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-family: var(--fonte-sri);
+    font-size: 1em;
     color: white;
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
     margin-bottom: 30px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    
 
+}
+
+#um{
+    background-color: white;
+    height: 300px;
+    max-width: 400px;
+    padding: 10px;
+    margin: left;
+    border-radius: 15px;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    padding-top: 130px;
+    margin-left: 40px;
+    padding-bottom: 90px;
+
+    
+}
+
+div#uni{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    height: 400px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+#dois{
+    background-color: rgba(0, 0, 0, 0.377);
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
+#tres{
+    background-color: white;
+    height: 300px;
+    max-width: 400px;
+    padding: 10px;
+    margin: left;
+    border-radius: 15px;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    padding-top: 130px;
+    margin-left: 40px;
+
+}
+
+#quatro{
+    background-color: white;
+    height: 300px;
+    max-width: 400px;
+    padding: 10px;
+    margin: left;
+    border-radius: 15px;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+
+#cinco{
+    background-color: rgba(0, 0, 0, 0.432);
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    color: white;
+    display: inline-block;
+}
+
+#dou{
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    height: 400px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+#seis{
+    background-color: white;
+    height: 300px;
+    max-width: 400px;
+    padding: 10px;
+    margin: left;
+    border-radius: 15px;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    margin-left: 40px;
+}
+
+#sete{
+    background-color: white;
+    height: 300px;
+    max-width: 400px;
+    padding: 10px;
+    margin: left;
+    border-radius: 15px;
+    font-family: var(--fonte-sri);
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+div#tri{
+    background-color: black;
+    min-height: 35px;
+}
+
+footer{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+    padding: 10px;
+    font-family: var(--fonte-sri);
+    font-weight: 100;
+}
+
+footer > strong{
+    color: white;
+}
+
+a{
+    color: white;
 }
