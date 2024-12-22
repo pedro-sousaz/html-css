@@ -1,8 +1,6 @@
 # html-cs
-  Este é alguns sites de teste:
+  Este é alguns sites:
 
-  <a href="https://pedro923-dev.github.io/html-css/exercicios/ex001/index.html" target="_blank">Executar o exercício 001</a>
+<a href="https://pedro923-dev.github.io/projeto-cordel/" target="_blank">Abra o projeto Cordel Moderno</a>
 
-<a href="https://pedro923-dev.github.io/html-css/desafios/d012/pagina001.html" target="_blank">Abra o desafio 12 (Cordel Moderno)</a>
-
-<a href="https://pedro923-dev.github.io/html-css/desafios/d010/android.html" target="_blank">Abra o desafio 10 (Site Android)</a>
+<a href="https://pedro923-dev.github.io/android-projeto/" target="_blank">Abra o projeto Mascote do Android</a>
