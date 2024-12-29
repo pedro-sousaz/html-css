@@ -32,9 +32,7 @@ body{
     font-family: var(--fonte-padrao);
 }
 
-a.externo::after{
-    content: '\00A0\1F517';
-}
+
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -98,6 +96,25 @@ main{
     border-bottom-right-radius: 10px;
 }
 
+.tpe{
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+#tpu{
+    text-decoration: none;
+}
+
+#tpu:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#tpy{
+    text-decoration: none;
+    color: black;
+}
+
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
@@ -127,7 +144,8 @@ main strong{
     font-weight: bold;
 }
 
-main a{
+main a.tel, a.tel::after{
+    content: '\00A0\1F517';
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
