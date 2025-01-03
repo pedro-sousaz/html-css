@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Como aprender HTML e CSS</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Opção 1</h2>
+            <p>Aprenda HTML e CSS com W3Schools, Codecademy ou FreeCodeCamp. Essas plataformas gratuitas oferecem tutoriais interativos e práticos. Para cursos avançados, opte por Udemy ou Coursera.</p>
+            <h2>Opção 2</h2>
+            <p>Se você está começando, W3Schools e Codecademy são ótimas escolhas. Ambas oferecem tutoriais interativos e fáceis de seguir. FreeCodeCamp também é uma excelente opção para aprender HTML e CSS de forma prática.</p>
+            <h2>Opção 3</h2>
+            <p>Desenvolva habilidades avançadas em HTML e CSS com cursos em Udemy ou Coursera. Essas plataformas oferecem certificação e conhecimento especializado. Além disso, W3Schools é uma referência para desenvolvedores web.</p>
+            <h2>Opção 4</h2>
+            <p>Aprenda HTML e CSS na prática com Codecademy e FreeCodeCamp. Essas plataformas oferecem exercícios interativos e projetos reais. Para referências técnicas, visite W3Schools.
+            </p>
+            <h2>Opção 5</h2>
+            <p>Existem várias opções para aprender HTML e CSS. W3Schools, Codecademy e FreeCodeCamp são gratuitas e ideais para iniciantes. Já Udemy e Coursera oferecem cursos avançados e certificação para profissionais. Escolha a melhor opção para você!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            } 
+        }
+    </script>
+</body>
+</html>
